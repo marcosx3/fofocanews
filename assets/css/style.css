@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:ital,wght@1,300&family=Spartan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Spartan', sans-serif;
+}
+
+h2 {
+    color: #290742;
+    font-weight: bold;
+}
+
+
+
+/* ========== HEADER ==========*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #290742;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+}
+/* ========== LOGO ==========*/
+.logo h1 {
+   color: #fff;
+}
+/* ========== MENU  ==========*/
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+
+}
+.menu ul a {
+    text-decoration: none;
+}
+.menu ul a:hover {
+    color: #290742;
+    border-bottom: 1px #fff solid;
+}
+
+.menu ul li{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.apoie-button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+/* ========== HOME  ==========*/
+.home {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+   background-color: #290742;
+}
+.home-text {
+    width: 570px;
+    height: 311px;
+}
+.home-text  h1 {
+    color: #9E6DC2;
+}
+.home-text  p {
+    padding-top: 100px;
+    color: #fff;
+}
+.home-imagem img {
+    width: 570px;
+    height: 346px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* ========== ASIDE  ==========*/
+.cardP {
+     max-width: 580px;
+}
+
+/* ========== NEWS  ==========*/
+.news {
+   max-width: 350px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+}
+
+.card p,h2 {
+    padding-bottom: 15px; 
+
+}
+
+/* ========== 2° NEWS  ==========*/
+.second-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.second-news {
+    max-width: 400px;
+}
+.second-news p,h2 {
+    padding-bottom: 15px; 
+}
+/* ========== FOOTER  ==========*/
+.footer {
+    display: flex;  
+    font-size: small;
+    justify-content: center;
+}
+.footer p {
+    padding: 10px;
+}
